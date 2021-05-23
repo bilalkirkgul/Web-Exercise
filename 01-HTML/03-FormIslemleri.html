@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>Kullanıcıdan data almak istediğimizde form yapısını kullanbiliriz. form yapısı verileri backend tarafına taşımamızda bizlere yardımcı olur</p>
+
+    <br />
+
+    <form>
+
+        <label>Ad :</label>
+        <input type="text" name="ad" placeholder="Adınızı giriniz" required /><br />
+        <label>Soyad :</label>
+        <input type="text" name="soyad" placeholder="Soyadınızı giriniz" required /><br />
+        <label>Yas :</label>
+        <input type="number" name="yas" placeholder="Yaşınızı giriniz" required /><br />
+        <label>Email :</label>
+        <input type="email" name="email" placeholder="Mail bilginizi giriniz" required /><br />
+        <label>Doğum Tarihi :</label>
+        <input type="date" name="dogumTarihi" required /><br />
+        <input type="button" name="Submit" value="Kaydet" />
+
+        <hr />
+
+        <h3>Hobiler</h3>
+        <label>Sinema</label><input type="checkbox" name="hobi" /><br />
+        <label>Tiyatro</label><input type="checkbox" name="hobi" /><br />
+        <label>Spor</label><input type="checkbox" name="hobi" /><br />
+
+        <h3>Adres</h3>
+
+        <select>
+            <option>Ankara</option>
+            <option>İstanbul</option>
+            <option>İzmir</option>
+            <option>Ankara</option>
+        </select>
+        <br />
+        <br />
+
+        <label>Şifre</label>
+        <input type="password" name="sifre" placeholder="Şifre giriniz" value="" />
+        <button type="submit">Kaydet</button>
+    </form>
+
+    <a href="01-HtmlIntro.html">HtmlIntro</a><br />
+    <a href="02-HtmlLink.html">Html Link</a><br />
+    <a href="04-Semantic.html">Semantik</a><br />
+</body>
+</html>
