@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        div{
+            height:100px;
+            width:100px;
+            background-color:aquamarine;
+        }
+        div:hover{/*üzerine gelindiğinde*/
+            width:200px;
+            height:200px;
+            background-color:red;
+        }
+        a:link{ /*link color*/
+            color:orange;
+        }
+        a:visited { /*tıklandığında*/
+            color: forestgreen;
+        }
+        a:hover{ /*üzerine gelindiğinde*/
+            background-color:black;
+            color:white;
+        }
+        input:focus{ /*input tıklandığında*/
+            background-color:black;
+            color:white;
+        }
+        span::after{
+            content:url(bilgeadam.jpg)
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+
+    </div>
+    <br />
+    <a href="https://facebook.com">Facebook</a>
+    <br />
+    <br />
+    <input type="text" name="name" placeholder="Place FirstName" value="" />
+    <br />
+    <br />
+    <span>Hello</span>
+
+</body>
+</html>
