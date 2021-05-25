@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lobortis urna. Proin mi ipsum, sodales a leo id, ullamcorper semper nisl. Donec ac posuere odio. In molestie, eros lacinia tempor imperdiet, augue tellus mollis magna, nec faucibus justo libero fermentum velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi scelerisque erat ut felis pretium, vel posuere purus ultricies. In in nisi scelerisque, scelerisque enim non, lobortis urna. Phasellus sit amet lacinia tortor.
+
+        Ut id velit egestas, finibus turpis condimentum, consequat urna. Donec nisi felis, finibus a consectetur ut, porttitor nec tortor. Morbi viverra at diam vel pulvinar. Donec sollicitudin quis nisi ac malesuada. Etiam ipsum leo, faucibus in turpis congue, dictum lacinia lorem. Praesent eu rutrum quam. Cras in neque non mi tempor facilisis id non est. Aliquam a tempus leo, quis tempus nisl. Nullam vehicula consequat enim nec pellentesque. Maecenas dictum augue ipsum, ut efficitur neque placerat vitae. Nunc tincidunt ultricies orci, pretium condimentum lacus. Integer id dapibus ante. Maecenas sed sem sagittis, euismod nisi in, blandit elit. Curabitur pulvinar arcu mauris, et malesuada ante porttitor in. Mauris scelerisque tincidunt metus, non consequat ante. Donec magna sem, lobortis non odio ut, elementum auctor elit.
+    </p>
+
+    <script>
+        console.log("Loglama Yapıldı")
+        console.error("Hata")
+        console.warn("Uyarı")
+        document.write("Merhaba Bilal Kırkgül")
+
+        //Degiskenler
+
+        var sayi;
+        console.log(sayi) //değişkene deger ataması yapılmadığı için undefined veriyor..
+
+        sayi = 5;
+        console.log(sayi)
+
+
+        let ad = "bilal";
+        console.log(ad)
+
+        sayi += 4;
+        console.log(sayi);
+
+        var value = "sayi =";
+        console.log(value + " " + sayi);
+
+        //Değişken Tipleri
+        //undefined
+
+        var deger;
+        console.log(deger);
+
+        //String
+        var value = "Fenerbahçe";
+        console.log(value);
+
+
+        //Sayisal
+        console.log(5);
+        console.log(5.4);
+        console.log(0.3);
+
+        //Boolean
+        var isPrime = false;
+        console.log(isPrime);
+
+        //null
+        var obje = null;
+        console.log(obje);
+
+        //Array
+
+        var ciftSayilar = new Array();
+        ciftSayilar[0] = 2;
+        ciftSayilar[1] = 4;
+        ciftSayilar[2] = 6;
+
+        var tekSayilar = new Array();
+        tekSayilar = [1, 3, 5, 7];
+        console.log(ciftSayilar);
+        console.log(tekSayilar);
+
+        var sayilar = [32, 56, 3, 67, 56, 67, 3];
+        console.log(sayilar);
+
+
+        //Object
+        var ogrenci = new Object();
+        ogrenci.Ad = "Yusuf";
+        ogrenci.Soyad = "Ay";
+        console.log(ogrenci);
+        console.log(ogrenci.Ad);
+
+        ogrenci.Ad = "Bilal";
+        ogrenci.Soyad = "Kırkgül";
+        console.log(ogrenci);
+        console.log(ogrenci.Ad);
+
+        var personel = {
+            Ad: "Ahmet",
+            Soyad: "Mert"
+        };
+
+        console.log(personel);
+
+        //Function
+
+        var Topla = function () {
+            return 5 + 4;
+        }
+
+        Topla();
+        console.log(Topla());
+
+        var Cikar = function () {
+            return 5 - 4;
+        }
+        Cikar();
+        console.log(Cikar());
+
+        function Toplam() {
+            return 8 + 3;
+        }
+        Toplam();
+        console.log(Toplam());
+
+        function toplaParametreli(s1, s2) {
+            return s1 + s2;
+        }
+        console.log(toplaParametreli(45, 18));
+
+        function alertParametreli(s3, s4) {
+            alert(s3 + s4);
+        }
+        alertParametreli(11, 22);
+       
+    </script>
+
+</body>
+</html>

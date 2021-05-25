@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        div{
+            height:100px;
+            width:100px;
+            background-color:blue;
+            position:absolute;
+            animation:move 5s infinite;
+        }
+        #div1{
+            animation-timing-function:linear;
+        }
+        #div2{
+            animation-timing-function:ease;
+        }
+        #div3 {
+            animation-timing-function: ease-in;
+        }
+
+        #div4 {
+            animation-timing-function: ease-out;
+        }
+
+        #div5 {
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes move {
+            from {
+                left: 0px;
+            }
+
+            to {
+                left: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">Linear</div><br />
+    <div id="div2">Ease</div><br />
+    <div id="div3">Ease In</div><br />
+    <div id="div4">Ease-Out</div><br />
+    <div id="div5">Ease In-Out</div><br />
+</body>
+</html>

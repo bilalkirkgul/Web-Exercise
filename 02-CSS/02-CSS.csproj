@@ -78,6 +78,10 @@
     <Content Include="06-Selector\01.html" />
     <Content Include="07-PseudoClass\01.html" />
     <Content Include="07-PseudoClass\bilgeadam.jpg" />
+    <Content Include="08-Animation\01.html" />
+    <Content Include="08-Animation\02.html" />
+    <Content Include="08-Animation\03.html" />
+    <Content Include="08-Animation\04.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -92,9 +96,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="08-Animation\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
