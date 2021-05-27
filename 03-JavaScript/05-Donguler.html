@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        var sehirler = ["istanbul", "ankara", "izmir", "bursa", "adana"];
+
+        for (var i = 0; i < sehirler.length; i++) {
+            document.write("<h2>"+sehirler[i]+"</h2>")
+        }
+        for (var item in sehirler) {
+            console.log(sehirler[item])
+        }
+        sehirler.forEach(function (deger, indis, dizi) {
+            document.write(dizi.length+"elemanlı izinin"+(indis+1)+". elemanı =>"+deger+"</br>")
+        });
+
+    </script>
+</body>
+</html>

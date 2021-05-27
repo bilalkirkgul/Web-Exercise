@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #dv{
+            height:100px;
+            width:250px;
+        }
+    </style>
+
+</head>
+<body>
+    <p id="myP">
+
+    </p>
+    <button onclick="Tikla()">Tıkla</button>
+    <button onclick="ShowMessage('js event')">Message</button> <br />
+    <div id="dv" onmousemove="ChangeColor(this)"><br />
+
+    </div>
+
+    <script>
+        function Tikla() {
+            document.getElementById("myP").innerText = "btn tiklandı";
+        }
+        function ShowMessage(data) {
+            document.getElementById("myP").innerText = data;
+        }
+        function ChangeColor(element) {
+            var red = Math.ceil(Math.random() * 256);
+            var green = Math.ceil(Math.random() * 256);
+            var blue = Math.ceil(Math.random() * 256);
+            element.style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
+        }
+
+
+    </script>
+
+</body>
+</html>

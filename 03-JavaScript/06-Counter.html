@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <p id="sayac">0</p><br />
+
+    <button onclick="SayacArtir()">+</button>
+    <button onclick="SayacDusur()">-</button><br />
+
+    <script>
+        var sayi = 0;
+        var msj = "sayac 0 altına inmez";
+        function SayacArtir() {
+            sayi++;
+            document.getElementById("sayac").innerText = sayi.toString();
+        }
+        function SayacDusur() {
+            if (sayi!=0) {
+                sayi--;
+                document.getElementById("sayac").innerText = sayi.toString();
+            } else {
+                document.getElementById("sayac").innerText = msj;
+            }
+
+            
+        }
+    </script>
+
+</body>
+</html>

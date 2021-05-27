@@ -71,6 +71,10 @@
     <Content Include="01-JsIntro.html" />
     <Content Include="02-Degiskenler.html" />
     <Content Include="03-Donusumler.html" />
+    <Content Include="04-Event.html" />
+    <Content Include="05-Donguler.html" />
+    <Content Include="06-Counter.html" />
+    <Content Include="07-MailOlusturma.html" />
     <Content Include="bootstrap\css\bootstrap-grid.css" />
     <Content Include="bootstrap\css\bootstrap-grid.min.css" />
     <Content Include="bootstrap\css\bootstrap-grid.rtl.css" />

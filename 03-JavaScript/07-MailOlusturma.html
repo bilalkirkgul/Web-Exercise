@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="margin-top:50px;">
+            <div class="col-md-8">
+                <div class="form-group">
+                    <h3><b>Mail Hesabı Olusturun</b></h3><br />
+                </div>
+                <div class="form-group">
+                    <input type="text" id="ad" class="form-control" placeholder="Adınızı giriniz" />
+                </div><br />
+                <div class="form-group">
+                    <input type="text" id="soyad" class="form-control" placeholder="Soyadınızı giriniz" />
+                </div><br />
+                <button class="btn btn-block btn-success" onclick="MailOlustur()">Mail Oluştur</button>
+            </div>
+
+            <div class="col-lg-8" style="margin-top:50px;">
+                <figure>
+                    <pre>
+<span id="mailYaz">
+
+</span>
+</pre>
+                </figure>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        function MailOlustur() {
+            var ad = document.getElementById("ad").value;
+            var soyad = document.getElementById("soyad").value;
+            var mail = ad + "." + soyad + "@yazilim.com";
+
+            document.getElementById("mailYaz").innerText = mail;
+
+        }
+    </script>
+
+
+</body>
+</html>
